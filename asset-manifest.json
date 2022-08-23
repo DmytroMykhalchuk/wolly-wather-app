@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wolly-wather-app/static/css/main.b022123a.css",
-    "main.js": "/wolly-wather-app/static/js/main.9a7e7bee.js",
+    "main.js": "/wolly-wather-app/static/js/main.1821b673.js",
     "static/js/787.08b580fb.chunk.js": "/wolly-wather-app/static/js/787.08b580fb.chunk.js",
     "index.html": "/wolly-wather-app/index.html",
     "main.b022123a.css.map": "/wolly-wather-app/static/css/main.b022123a.css.map",
-    "main.9a7e7bee.js.map": "/wolly-wather-app/static/js/main.9a7e7bee.js.map",
+    "main.1821b673.js.map": "/wolly-wather-app/static/js/main.1821b673.js.map",
     "787.08b580fb.chunk.js.map": "/wolly-wather-app/static/js/787.08b580fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b022123a.css",
-    "static/js/main.9a7e7bee.js"
+    "static/js/main.1821b673.js"
   ]
 }
