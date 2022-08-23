@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwolly=self.webpackChunkwolly||[]).push([[74],{2074:function(e,s,t){e.exports=t.p+"static/media/night2.f1b79e6677c7184abdde.jpg"}}]);
