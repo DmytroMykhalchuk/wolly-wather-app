@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwolly=self.webpackChunkwolly||[]).push([[784],{4784:function(e,s,c){e.exports=c.p+"static/media/morning1.d9d1694f7f3c4745e59b.jpg"}}]);
