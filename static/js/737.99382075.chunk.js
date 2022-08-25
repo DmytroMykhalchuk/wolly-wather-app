@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwolly=self.webpackChunkwolly||[]).push([[737],{4737:function(e,c,s){e.exports=s.p+"static/media/morning3.2be90dcf89c4c100dd8d.webp"}}]);

@@ -235,34 +235,34 @@ export const setCoordinates=(lot,lat,name)=>{
     }
 }
 export const getCurrentWeather=(dispatch)=>(lat,lon)=>{
-//    let promise1=apiWeatherInitialize.getWeatherCurrent(lon,lat)
-//    .then(data=>{
-//         dispatch(setCurrentWeather(data.current));
-//     });
-//     let promise2=apiWeatherInitialize.getWeather16Days(lon,lat).then(data=>{
-//         dispatch(set16DayWeather(data));
-//        // console.log(data);
-//     });
+   let promise1=apiWeatherInitialize.getWeatherCurrent(lon,lat)
+   .then(data=>{
+        dispatch(setCurrentWeather(data.current));
+    });
+    let promise2=apiWeatherInitialize.getWeather16Days(lon,lat).then(data=>{
+        dispatch(set16DayWeather(data));
+      //  console.log(data);
+    });
 
-//     let promise3=apiWeatherInitialize.getWeatherHoursly(lon,lat).then(data=>{
-//         dispatch(setHourslyWeather(data));
-//        // console.log(data);
+    let promise3=apiWeatherInitialize.getWeatherHoursly(lon,lat).then(data=>{
+        dispatch(setHourslyWeather(data));
+       // console.log(data);
 
-//     });
-//    Promise.all([promise1,promise2,promise3]).then(()=>{
-//     dispatch(setInitializingFalse());
-//  }); 
-   let promise=new Promise(resolve=>{
-      setTimeout(()=>{
-         return resolve(test);
-      },300)
-   });
-   promise.then(data=>{
-      dispatch(setCurrentWeather(data.current));
-      dispatch(set16DayWeather(data.daily));
-      dispatch(setHourslyWeather(data.hourly));
-      dispatch(setInitializingFalse());
-   })
+    });
+   Promise.all([promise1,promise2,promise3]).then(()=>{
+    dispatch(setInitializingFalse());
+ }); 
+   // let promise=new Promise(resolve=>{
+   //    setTimeout(()=>{
+   //       return resolve(test);
+   //    },300)
+   // });
+   // promise.then(data=>{
+   //    dispatch(setCurrentWeather(data.current));
+   //    dispatch(set16DayWeather(data.daily));
+   //    dispatch(setHourslyWeather(data.hourly));
+   //    dispatch(setInitializingFalse());
+   // })
 }
 export const getGeocodes=(dispatch)=>(location)=>{
     if(location===''){

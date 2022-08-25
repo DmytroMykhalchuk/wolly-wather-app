@@ -38,7 +38,7 @@ export const apiWeatherInitialize={
          const options = {
          method: 'GET',
          url: 'https://weatherbit-v1-mashape.p.rapidapi.com/forecast/hourly',
-         params: {lat: lat, lon: lon, lang: 'uk', hours: '72', units: 'metric'},
+         params: {lat: lat, lon: lon, lang: 'uk', hours: '120', units: 'metric'},
          headers: {
             'X-RapidAPI-Key': '0f2ea67d85msh85704bb847912f8p121045jsn00aa5c06d33a',
             'X-RapidAPI-Host': 'weatherbit-v1-mashape.p.rapidapi.com'
@@ -55,7 +55,7 @@ export const apiWeatherInitialize={
       const options = {
          method: 'GET',
          url: 'https://weatherbit-v1-mashape.p.rapidapi.com/forecast/daily',
-         params: {lat: lat, lon: lon},
+         params: {lat: lat, lon: lon,lang: 'uk', hours: '120', units: 'metric'},
          headers: {
             'X-RapidAPI-Key': '0f2ea67d85msh85704bb847912f8p121045jsn00aa5c06d33a',
             'X-RapidAPI-Host': 'weatherbit-v1-mashape.p.rapidapi.com'

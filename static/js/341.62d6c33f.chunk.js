@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwolly=self.webpackChunkwolly||[]).push([[341],{341:function(e,s,t){e.exports=t.p+"static/media/daytime5.d1826234f24283c2df14.jpg"}}]);

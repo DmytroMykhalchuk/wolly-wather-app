@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwolly=self.webpackChunkwolly||[]).push([[260],{1260:function(e,c,s){e.exports=s.p+"static/media/daytime8.2be90dcf89c4c100dd8d.webp"}}]);
