@@ -1,0 +1,89 @@
+@import url(../../index.css);
+
+.wrapper {
+   top: 0;
+   width: 100%;
+   z-index: 6;
+   border-bottom: 1px solid #000;
+   color: #fff;
+   position: relative;
+   padding-top: 20px;
+}
+.header{
+   position: relative;
+}
+
+.wrapper__title {
+   font-family: var(--font-family-1);
+   font-size: 27px;
+   text-align: center;
+   margin: 0;
+}
+
+.btnSearch {
+   position: absolute;
+   right: 3%;
+   font-size: 24px;
+   background: none;
+   border: none;
+   color: #fff;
+   top: 50%;
+   transform: translateY(-50%);
+}
+.fieldWrapper{
+   display: flex;
+   justify-content: end;
+   padding:15px;
+   transition: all 0.4s;
+   flex-direction: column;
+   height: 0px;
+   /* overflow: hidden; */
+}
+.fieldWrapper input {
+   padding: 7px;
+   border-radius: 5px;
+   border: none;
+   width: 0%;
+   font-size: 0;
+   padding: 0;
+   transform: scale(0);
+   transition: all 0.4s;
+   
+}
+.fieldWrapperOpened{
+   height: 80px;
+   /* transition-delay: 0.2s; */
+}
+.box{
+   transform: translateY(300px);
+   transition: all 0.4s;
+}
+.boxOpened{
+   transform: translateY(0px);
+}
+.fieldWrapperOpened input {
+   width: 100%;
+   font-size: 16px;
+   padding: 15px 10px;
+   box-shadow: 5px 4px 11px 0px #0000008a;
+   transform: scale(1);
+   transition: all 0.4s;
+
+}
+
+.fieldWrapper .list{
+   list-style-type: none;
+   margin:0;
+   padding: 0 10px 10px ;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.336);
+}
+.fieldWrapper .listWrapper{
+   padding-bottom: 12px;
+   padding-top: 14px;
+}
+.fieldWrapper .list li{
+   border-bottom: 1px solid #ababab;
+   color: rgb(255, 255, 255);
+   padding: 8px ;
+}

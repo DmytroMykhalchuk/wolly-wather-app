@@ -1,0 +1,40 @@
+.wrapper{
+   background-color: rgb(56 56 56);
+   padding: 15px;
+   color:#fff;
+   transition: all 0.4s;
+   overflow: hidden;
+}
+.wrapperClosed{
+   font-size: 0;
+   padding: 0;
+
+
+}
+.boxInfo .boxInfo__title{
+   margin: 0;
+}
+.row{
+   display: flex;
+}
+.boxInfo__Col{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+}
+.boxInfo__Col:nth-child(2){
+   align-items: end;
+}
+.uviLow{
+   color:#97ff38;
+}
+.uviMiddle{
+   color:#fff238;
+}
+.uviHigh{
+   color:#ff853e;
+}
+.uviDanger{
+   color:#ff5638;
+}
